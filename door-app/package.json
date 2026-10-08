@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@parity/product-sdk": "0.27.0",
+    "@parity/product-sdk-descriptors": "0.11.0"
+  },
+  "devDependencies": {
+    "@novasamatech/host-api": "0.9.1",
+    "@parity/host-api-test-sdk": "0.12.1",
+    "@playwright/test": "1.63.0",
+    "typescript": "7.0.2",
+    "vite": "8.2.2"
+  },
+  "name": "hardware-door-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "sync-contract": "node tools/sync-contract.mjs",
+    "test:live": "playwright test",
+    "icon": "node tools/icon.mjs",
+    "test:protocol": "node --test test/wallet-protocol.test.mjs",
+    "test:wallet": "node --test test/wallet-connection.test.mjs"
+  }
+}

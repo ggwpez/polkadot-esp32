@@ -1,0 +1,21 @@
+[package]
+name = "door-policy"
+version = "0.1.0"
+edition = "2024"
+description = "Admin-managed hashed RFID allowlist for an ESP32 OLED door demo"
+[lib]
+path = "lib.rs"
+[[bin]]
+name = "door-policy"
+path = "lib.rs"
+test = false
+[features]
+abi-gen = ["pvm-contract-sdk/abi-gen"]
+[package.metadata.cdm]
+package = "@example/door-policy"
+[dependencies]
+pvm-contract-sdk = { workspace = true }
+polkavm-derive = { workspace = true }
+picoalloc = { workspace = true }
+[dev-dependencies]
+pvm-contract-sdk = { workspace = true, features = ["std"] }

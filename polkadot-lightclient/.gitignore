@@ -1,0 +1,35 @@
+# PlatformIO build output. Hundreds of megabytes: toolchains, framework
+# packages and object files, all reproducible from platformio.ini.
+.pio/
+
+# The repo-root virtualenv the tools need (xxhash, cryptography).
+.venv/
+
+# Serial captures and build logs from tools/devrun.sh and friends.
+*.log
+
+# Host test binaries land in $TMPDIR, but not if TMPDIR is unset and someone
+# edits a runner to write here instead.
+lc_test_*
+
+.DS_Store
+.vscode/
+.idea/
+
+# ---------------------------------------------------------------------------
+# Deliberately NOT ignored, though all of it is generated:
+#
+#   src/checkpoint.h            the trust root, and the only thing believed
+#                               a priori. It has to be reviewed in a diff.
+#   src/checkpoint_precomp.c    1.4 MB of point tables derived from those keys.
+#                               Large, but it must travel with checkpoint.h or
+#                               the two fall out of step - main.cpp #errors if
+#                               they disagree on set_id, and regenerating it
+#                               needs the venv. A clone should build as-is.
+#   test/fixtures/              real mainnet data the host tests assert against.
+#                               Regenerating needs network, and fresh captures
+#                               would silently change what the tests prove.
+#
+# The rule: if a checkout cannot build or cannot run its tests without it, it
+# is committed, however generated it looks.
+# ---------------------------------------------------------------------------

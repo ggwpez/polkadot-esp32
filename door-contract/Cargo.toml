@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = ["contracts/door-policy", "contracts/door-toggle", "contracts/door-keys"]
+[workspace.dependencies]
+pvm-contract-sdk = { git = "https://github.com/paritytech/cargo-pvm-contract", rev = "ba2966a9e47f1503606754061af338d353f809bf", features = ["alloc"] }
+polkavm-derive = "0.35"
+picoalloc = "5.2"

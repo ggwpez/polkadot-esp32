@@ -1,0 +1,21 @@
+[package]
+name = "door-toggle"
+version = "0.1.0"
+edition = "2024"
+description = "Public on-chain toggle for the ESP32 OLED door"
+[lib]
+path = "lib.rs"
+[[bin]]
+name = "door-toggle"
+path = "lib.rs"
+test = false
+[features]
+abi-gen = ["pvm-contract-sdk/abi-gen"]
+[package.metadata.cdm]
+package = "@example/door-toggle"
+[dependencies]
+pvm-contract-sdk = { workspace = true }
+polkavm-derive = { workspace = true }
+picoalloc = { workspace = true }
+[dev-dependencies]
+pvm-contract-sdk = { workspace = true, features = ["std"] }

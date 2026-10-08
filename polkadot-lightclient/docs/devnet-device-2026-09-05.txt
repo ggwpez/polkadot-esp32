@@ -1,0 +1,359 @@
+--- cycle 1 ---
+  node finalized #932,017
+  verifying justification .
+  finality: #932,017, 38/38 signatures, weight 38/56 in 378 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,807
+
+  proven against Asset Hub #13,084,807 (state root from relay #932,017)
+    System::Number          = 13,084,807
+    Timestamp::Now          = 1,788,620,292,000
+    Balances::TotalIssuance = 876.53M PAS  (876,534,785.8893205628)
+    consistency: AH block number matches the relay-proven header: yes
+
+  self-test: nothing on the wire may be altered unnoticed
+    ok   a retained precommit verifies against the real payload
+    ok   the same signature fails under a different set_id
+    ok   the same signature fails under a different round
+    ok   the same signature fails for a different block number
+    ok   the same signature fails for a one-bit-different block hash
+    ok   the retained precommit's signer has a precomputed table
+    ok   it verifies through the precomputed table
+    ok   it fails through another authority's table
+    ok   a state root we did not prove has no reachable root node
+    ok   a key the proof does not cover is not reported as found
+    ---- 9 tampered nodes: 4 broke the proof, 5 off-path
+    ok   no single-bit tamper produced a different value
+  self-test: 11 passed, 0 failed
+  cycle took 3,135 ms, heap 90,860 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 2 ---
+  node finalized #932,018
+  verifying justification .
+  finality: #932,018, 38/38 signatures, weight 38/56 in 390 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,807
+
+  proven against Asset Hub #13,084,807 (state root from relay #932,018)
+    System::Number          = 13,084,807
+    Timestamp::Now          = 1,788,620,292,000
+    Balances::TotalIssuance = 876.53M PAS  (876,534,785.8893205628)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,175 ms, heap 90,860 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 3 ---
+  node finalized #932,019
+  verifying justification .
+  finality: #932,019, 38/38 signatures, weight 38/56 in 395 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,810
+
+  proven against Asset Hub #13,084,810 (state root from relay #932,019)
+    System::Number          = 13,084,810
+    Timestamp::Now          = 1,788,620,316,000
+    Balances::TotalIssuance = 876.53M PAS  (876,534,785.8893205628)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,175 ms, heap 90,860 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 4 ---
+  node finalized #932,020
+  verifying justification .
+  finality: #932,020, 38/38 signatures, weight 38/56 in 394 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,813
+
+  proven against Asset Hub #13,084,813 (state root from relay #932,020)
+    System::Number          = 13,084,813
+    Timestamp::Now          = 1,788,620,316,000
+    Balances::TotalIssuance = 876.53M PAS  (876,534,785.8893205628)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,177 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 5 ---
+  node finalized #932,021
+  verifying justification .
+  finality: #932,021, 38/38 signatures, weight 38/56 in 388 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,813
+
+  proven against Asset Hub #13,084,813 (state root from relay #932,021)
+    System::Number          = 13,084,813
+    Timestamp::Now          = 1,788,620,316,000
+    Balances::TotalIssuance = 876.53M PAS  (876,534,785.8893205628)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,168 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 6 ---
+  node finalized #932,022
+  verifying justification .
+  finality: #932,022, 38/38 signatures, weight 38/56 in 393 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,813
+
+  proven against Asset Hub #13,084,813 (state root from relay #932,022)
+    System::Number          = 13,084,813
+    Timestamp::Now          = 1,788,620,316,000
+    Balances::TotalIssuance = 876.53M PAS  (876,534,785.8893205628)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,185 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 7 ---
+  node finalized #932,023
+  verifying justification .
+  finality: #932,023, 38/38 signatures, weight 38/56 in 372 ms
+    (21 checked on the second core, 17 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,816
+
+  proven against Asset Hub #13,084,816 (state root from relay #932,023)
+    System::Number          = 13,084,816
+    Timestamp::Now          = 1,788,620,340,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,059.8871739154)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,236 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 8 ---
+  node finalized #932,024
+  verifying justification .
+  finality: #932,024, 39/39 signatures, weight 39/56 in 393 ms
+    (22 checked on the second core, 17 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,819
+
+  proven against Asset Hub #13,084,819 (state root from relay #932,024)
+    System::Number          = 13,084,819
+    Timestamp::Now          = 1,788,620,340,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,059.8871739154)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,169 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 9 ---
+  node finalized #932,025
+  verifying justification .
+  finality: #932,025, 38/38 signatures, weight 38/56 in 388 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,819
+
+  proven against Asset Hub #13,084,819 (state root from relay #932,025)
+    System::Number          = 13,084,819
+    Timestamp::Now          = 1,788,620,340,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,059.8871739154)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,193 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 10 ---
+  node finalized #932,026
+  verifying justification .
+  finality: #932,026, 38/38 signatures, weight 38/56 in 392 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,819
+
+  proven against Asset Hub #13,084,819 (state root from relay #932,026)
+    System::Number          = 13,084,819
+    Timestamp::Now          = 1,788,620,340,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,059.8871739154)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,167 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 11 ---
+  node finalized #932,027
+  verifying justification .
+  finality: #932,027, 39/39 signatures, weight 39/56 in 389 ms
+    (22 checked on the second core, 17 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,822
+
+  proven against Asset Hub #13,084,822 (state root from relay #932,027)
+    System::Number          = 13,084,822
+    Timestamp::Now          = 1,788,620,364,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,059.8871739154)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,175 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 12 ---
+  node finalized #932,028
+  verifying justification .
+  finality: #932,028, 38/38 signatures, weight 38/56 in 391 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,825
+
+  proven against Asset Hub #13,084,825 (state root from relay #932,028)
+    System::Number          = 13,084,825
+    Timestamp::Now          = 1,788,620,364,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,059.8871739154)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,172 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 13 ---
+  node finalized #932,029
+  verifying justification .
+  finality: #932,029, 38/38 signatures, weight 38/56 in 391 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,825
+
+  proven against Asset Hub #13,084,825 (state root from relay #932,029)
+    System::Number          = 13,084,825
+    Timestamp::Now          = 1,788,620,364,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,059.8871739154)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,172 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 14 ---
+  node finalized #932,030
+  verifying justification .
+  finality: #932,030, 43/43 signatures, weight 43/56 in 426 ms
+    (24 checked on the second core, 19 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,825
+
+  proven against Asset Hub #13,084,825 (state root from relay #932,030)
+    System::Number          = 13,084,825
+    Timestamp::Now          = 1,788,620,364,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,059.8871739154)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,215 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 15 ---
+  node finalized #932,031
+  verifying justification .
+  finality: #932,031, 38/38 signatures, weight 38/56 in 372 ms
+    (21 checked on the second core, 17 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,828
+
+  proven against Asset Hub #13,084,828 (state root from relay #932,031)
+    System::Number          = 13,084,828
+    Timestamp::Now          = 1,788,620,388,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,059.8871739154)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,224 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 16 ---
+  node finalized #932,032
+  verifying justification .
+  finality: #932,032, 40/40 signatures, weight 40/56 in 414 ms
+    (23 checked on the second core, 17 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,831
+
+  proven against Asset Hub #13,084,831 (state root from relay #932,032)
+    System::Number          = 13,084,831
+    Timestamp::Now          = 1,788,620,388,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,059.8871739154)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,196 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 17 ---
+  node finalized #932,033
+  verifying justification .
+  finality: #932,033, 38/38 signatures, weight 38/56 in 394 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,831
+
+  proven against Asset Hub #13,084,831 (state root from relay #932,033)
+    System::Number          = 13,084,831
+    Timestamp::Now          = 1,788,620,388,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,059.8871739154)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,177 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 18 ---
+  node finalized #932,034
+  verifying justification .
+  finality: #932,034, 38/38 signatures, weight 38/56 in 387 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,831
+
+  proven against Asset Hub #13,084,831 (state root from relay #932,034)
+    System::Number          = 13,084,831
+    Timestamp::Now          = 1,788,620,388,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,059.8871739154)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,190 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 19 ---
+  node finalized #932,035
+  verifying justification .
+  finality: #932,035, 38/38 signatures, weight 38/56 in 393 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,834
+
+  proven against Asset Hub #13,084,834 (state root from relay #932,035)
+    System::Number          = 13,084,834
+    Timestamp::Now          = 1,788,620,412,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,333.8850272680)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,187 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 20 ---
+  node finalized #932,036
+  verifying justification .
+  finality: #932,036, 38/38 signatures, weight 38/56 in 390 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,837
+
+  proven against Asset Hub #13,084,837 (state root from relay #932,036)
+    System::Number          = 13,084,837
+    Timestamp::Now          = 1,788,620,412,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,333.8850272680)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,183 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 21 ---
+  node finalized #932,037
+  verifying justification .
+  finality: #932,037, 38/38 signatures, weight 38/56 in 388 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,837
+
+  proven against Asset Hub #13,084,837 (state root from relay #932,037)
+    System::Number          = 13,084,837
+    Timestamp::Now          = 1,788,620,412,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,333.8850272680)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,179 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 22 ---
+  node finalized #932,038
+  verifying justification .
+  finality: #932,038, 38/38 signatures, weight 38/56 in 395 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,837
+
+  proven against Asset Hub #13,084,837 (state root from relay #932,038)
+    System::Number          = 13,084,837
+    Timestamp::Now          = 1,788,620,412,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,333.8850272680)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,172 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660
+
+--- cycle 23 ---
+  node finalized #932,039
+  verifying justification .
+  finality: #932,039, 38/38 signatures, weight 38/56 in 388 ms
+    (22 checked on the second core, 16 inline while it was busy)
+  header bound: 327 bytes hash to the finalized block
+  Paras::Heads(1000) proven from 6 nodes -> Asset Hub #13,084,840
+
+  proven against Asset Hub #13,084,840 (state root from relay #932,039)
+    System::Number          = 13,084,840
+    Timestamp::Now          = 1,788,620,436,000
+    Balances::TotalIssuance = 876.53M PAS  (876,535,333.8850272680)
+    consistency: AH block number matches the relay-proven header: yes
+  cycle took 1,166 ms, heap 90,896 free (largest block 49,140), stack headroom 7,660

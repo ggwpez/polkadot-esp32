@@ -1,0 +1,19 @@
+[build]
+target = ".cargo/riscv64emac-unknown-none-polkavm.json"
+
+[unstable]
+build-std = ["core", "alloc", "test"]
+json-target-spec = true
+
+[env]
+RUSTC_BOOTSTRAP = "1"
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/paritytech/cargo-pvm-contract?rev=ba2966a9e47f1503606754061af338d353f809bf"]
+git = "https://github.com/paritytech/cargo-pvm-contract"
+rev = "ba2966a9e47f1503606754061af338d353f809bf"
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "vendor"

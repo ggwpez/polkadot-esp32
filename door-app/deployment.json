@@ -1,0 +1,14 @@
+{
+  "network": "devnet",
+  "domain": "example-door.dot",
+  "url": "https://door.example.invalid",
+  "owner": "YOUR_PUBLISHING_ACCOUNT",
+  "contract": "0x0000000000000000000000000000000000000000",
+  "appVersion": [
+    1,
+    5,
+    3
+  ],
+  "example": true,
+  "publicationNote": "Unpublished template. Replace with your own domain, owner, contract, CIDs and transaction records after deployment."
+}

@@ -1,0 +1,16 @@
+{"at":0,"set":"sync","status":"ok","age_s":7,"relay_block":989094,"age_runs":false}
+{"at":0,"set":"keys","count":0}
+{"at":0.0,"set":"door","state":"closed"}
+{"at":3.95,"set":"door","state":"denied"}
+{"at":6.95,"set":"door","state":"denied"}
+{"at":23.65,"set":"keys","count":1}
+{"at":28.5,"set":"door","state":"open"}
+{"at":31.6,"set":"door","state":"closed"}
+{"at":33.15,"set":"door","state":"open"}
+{"at":36.25,"set":"door","state":"closed"}
+{"at":65.116666666667,"set":"keys","count":2}
+{"at":67.8,"set":"door","state":"open"}
+{"at":70.85,"set":"door","state":"closed"}
+{"at":72.05,"set":"door","state":"open"}
+{"at":75.15,"set":"door","state":"closed"}
+{"at":76.333333333,"set":"end"}

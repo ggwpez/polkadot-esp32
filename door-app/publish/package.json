@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@polkadot-community-foundation/dotns-cli": "0.9.1",
+    "@polkadot-community-foundation/polkadot-app-deploy": "0.16.1"
+  },
+  "overrides": {
+    "polkadot-api": "2.1.7"
+  }
+}

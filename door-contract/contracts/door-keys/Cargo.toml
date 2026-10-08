@@ -1,0 +1,21 @@
+[package]
+name = "door-keys"
+version = "0.1.0"
+edition = "2024"
+description = "Public selection of Alice, Bob, or both as accepted RFID door keys"
+[lib]
+path = "lib.rs"
+[[bin]]
+name = "door-keys"
+path = "lib.rs"
+test = false
+[features]
+abi-gen = ["pvm-contract-sdk/abi-gen"]
+[package.metadata.cdm]
+package = "@example/door-keys"
+[dependencies]
+pvm-contract-sdk = { workspace = true }
+polkavm-derive = { workspace = true }
+picoalloc = { workspace = true }
+[dev-dependencies]
+pvm-contract-sdk = { workspace = true, features = ["std"] }

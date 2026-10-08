@@ -1,0 +1,16 @@
+{"at":0,"set":"sync","status":"waiting"}
+{"at":0,"set":"keys","count":0}
+{"at":1.5,"set":"sync","status":"ok","age_s":29,"relay_block":989094}
+{"at":1.5,"set":"keys","count":1}
+{"at":3,"set":"door","state":"open"}
+{"at":5,"set":"door","state":"closed"}
+{"at":6.5,"set":"door","state":"denied"}
+{"at":8,"set":"keys","count":2}
+{"at":8,"set":"sync","status":"ok","age_s":30,"relay_block":989095}
+{"at":9,"set":"door","state":"open"}
+{"at":11,"set":"door","state":"closed"}
+{"at":12,"set":"sync","status":"stale","age_s":121,"relay_block":989095}
+{"at":12,"set":"keys","count":0}
+{"at":14,"set":"sync","status":"ok","age_s":28,"relay_block":989096}
+{"at":14,"set":"keys","count":1}
+{"at":16,"set":"end"}

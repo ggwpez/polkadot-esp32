@@ -1,0 +1,80 @@
+{
+  "checked_at": "2026-09-05T14:45:37.069120+00:00",
+  "note": "RPC sanity only; verify signatures and Merkle proofs separately",
+  "results": [
+    {
+      "role": "relay",
+      "endpoint": "https://paseo-rpc.n.dwellir.com",
+      "chain": "Paseo",
+      "genesis": "0x374057be67b355151f271ff70c3db98308c62c8adc48dc6724b6a009a1a014fd",
+      "finalized_hash": "0xff1e65fb8d814e980eb2f09d330ffee87c08118b8b667646ad2569913fbaa87d",
+      "finalized_number": 931882,
+      "runtime": {
+        "specName": "paseo",
+        "specVersion": 2003001,
+        "stateVersion": 1
+      },
+      "system_number": 931882,
+      "storage_proof_bytes": 1065,
+      "authorities": 56,
+      "set_id": 246,
+      "finality_proof_bytes": 5361,
+      "websocket_tls12": true,
+      "ok": true
+    },
+    {
+      "role": "relay",
+      "endpoint": "https://paseo-v2.rpc.turboflakes.io",
+      "chain": "Paseo",
+      "genesis": "0x374057be67b355151f271ff70c3db98308c62c8adc48dc6724b6a009a1a014fd",
+      "finalized_hash": "0xff1e65fb8d814e980eb2f09d330ffee87c08118b8b667646ad2569913fbaa87d",
+      "finalized_number": 931882,
+      "runtime": {
+        "specName": "paseo",
+        "specVersion": 2003001,
+        "stateVersion": 1
+      },
+      "system_number": 931882,
+      "storage_proof_bytes": 1065,
+      "authorities": 56,
+      "set_id": 246,
+      "finality_proof_bytes": 5097,
+      "websocket_tls12": true,
+      "ok": true
+    },
+    {
+      "role": "hub",
+      "endpoint": "https://asset-hub-paseo-rpc.n.dwellir.com",
+      "chain": "Paseo Asset Hub",
+      "genesis": "0xd6eec26135305a8ad257a20d003357284c8aa03d0bdb2b357ab0a22371e11ef2",
+      "finalized_hash": "0x5aae2b08876ce1aaa1bdf99aeb7729203d3796f2dea6552b487a2f5bbfe4b226",
+      "finalized_number": 13084603,
+      "runtime": {
+        "specName": "asset-hub-paseo",
+        "specVersion": 2004002,
+        "stateVersion": 1
+      },
+      "system_number": 13084603,
+      "storage_proof_bytes": 938,
+      "para_id": 1000,
+      "ok": true
+    },
+    {
+      "role": "hub",
+      "endpoint": "https://sys.turboflakes.io/asset-hub-paseo",
+      "chain": "Paseo Asset Hub",
+      "genesis": "0xd6eec26135305a8ad257a20d003357284c8aa03d0bdb2b357ab0a22371e11ef2",
+      "finalized_hash": "0x5aae2b08876ce1aaa1bdf99aeb7729203d3796f2dea6552b487a2f5bbfe4b226",
+      "finalized_number": 13084603,
+      "runtime": {
+        "specName": "asset-hub-paseo",
+        "specVersion": 2004002,
+        "stateVersion": 1
+      },
+      "system_number": 13084603,
+      "storage_proof_bytes": 938,
+      "para_id": 1000,
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "hardware-door-contract",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@polkadot-community-foundation/cdm-cli": "0.9.0",
+    "@polkadot-community-foundation/cdm-env": "2.3.0"
+  },
+  "scripts": {
+    "build": "cdm build -n devnet",
+    "test": "cargo pvm-contract test"
+  },
+  "dependencies": {
+    "@parity/product-sdk-descriptors": "0.11.0",
+    "@polkadot-labs/hdkd": "0.0.31",
+    "@polkadot-labs/hdkd-helpers": "0.0.33",
+    "polkadot-api": "2.1.7"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "network": "devnet",
+  "genesis": "0xd6eec26135305a8ad257a20d003357284c8aa03d0bdb2b357ab0a22371e11ef2",
+  "address": "0x0000000000000000000000000000000000000000",
+  "admin": "YOUR_ADMIN_ADDRESS",
+  "registered": false,
+  "example": true,
+  "note": "Undeployed template. Deploy your own contract to replace the zero address and account placeholder."
+}

@@ -1,0 +1,27 @@
+# Custom 4 MB layout for the Polkadot light client.
+#
+# No OTA: the board is flashed over USB, and the thing that actually goes stale
+# is the GRANDPA authority set, which is *data*, not firmware. It lives in nvs.
+#
+# nvs is 64K (not the stock 20K) so the 600-key authority set (19.2 KB) fits
+# with room for NVS overhead, checkpoint metadata and wear levelling. That is
+# what lets the device refresh its trust root without being reflashed.
+#
+# The app MUST stay at 0x10000. PlatformIO takes the flash offset from board
+# config (ESP32_APP_OFFSET, default 0x10000), NOT from this file - moving the
+# app here without also setting board_upload.offset_address flashes the image
+# to 0x10000 while the bootloader looks for it elsewhere, and the board
+# boot-loops with no output at all.
+#
+# Changing this table later ERASES NVS. Settle it before firmware depends on it.
+#
+# Name,   Type, SubType,  Offset,   Size
+#
+# 28K - panic dumps, fills the gap between the partition table and the app
+coredump, data, coredump, 0x9000,   0x7000
+# 3M - single app slot, at the offset PlatformIO hardcodes
+factory,  app,  factory,  0x10000,  0x300000
+# 64K - authority set (19.2 KB) + checkpoint metadata
+nvs,      data, nvs,      0x310000, 0x10000
+# 896K - logs / spare
+storage,  data, spiffs,   0x320000, 0xE0000
