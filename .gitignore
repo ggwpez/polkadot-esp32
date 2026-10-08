@@ -1,0 +1,32 @@
+.pio/
+.venv/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+.vscode/
+.idea/
+.env*
+!.env.example
+wifi.local.h
+.local-backups/
+
+node_modules/
+target/
+door.local.h
+dist/
+test-results/
+playwright-report/
+
+# Offline OLED rendering cache and videos
+.render-cache/
+renders/
+
+# Vendored dependency trees are regenerated from lockfiles (tools/setup.sh).
+# vendor/npm-sources.json is the only vendored input kept in the repository.
+vendor/*
+!vendor/npm-sources.json
+door-contract/vendor/
+
+# Local emulator toolchain (installed separately).
+.tools/
